@@ -10,6 +10,7 @@ class StoreSerializer(serializers.ModelSerializer):
                 'id',
                 'name',
                 'brand',
+                'quantity',
                 'price',
                 'iva',
                 'priceIva',
